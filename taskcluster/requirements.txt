@@ -128,9 +128,9 @@ idna==3.7 \
     --hash=sha256:028ff3aadf0609c1fd278d8ea3089299412a7a8b9bd005dd08b9f8285bcb5cfc \
     --hash=sha256:82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0
     # via requests
-jinja2==3.1.4 \
-    --hash=sha256:4a3aee7acbbe7303aede8e9648d13b8bf88a429282aa6122a993f0ac800cb369 \
-    --hash=sha256:bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d
+jinja2==3.1.5 \
+    --hash=sha256:8fefff8dc3034e27bb80d67c671eb8a9bc424c0ef4c0826edbff304cceff43bb \
+    --hash=sha256:aba0f4dc9ed8013c424088f68a5c226f7d6097ed89b246d7749c2ec4175c6adb
     # via cookiecutter
 json-e==4.7.1 \
     --hash=sha256:27f6856dc2e1774eb26c83d76efe1fb20b69b62b830c7cf71faea70311855fe4 \
@@ -213,7 +213,7 @@ mozilla-repo-urls==0.1.1 \
 mozilla-taskgraph==3.0.1 \
     --hash=sha256:3b9d18e9bfee127a1984bc2aaa948d51fef8f8e430e75b641b643b5b5a780dda \
     --hash=sha256:dceb76a1678e4283a9b60ba23aa4ec7a80bb2de5ff0bec78562597766b2b21bb
-    # via -r requirements.in
+    # via -r taskcluster/requirements.in
 pygments==2.18.0 \
     --hash=sha256:786ff802f32e91311bff3889f6e9a86e81505fe99f2735bb6d60ae0c5004f199 \
     --hash=sha256:b8e6aca0523f3ab76fee51799c488e38782ac06eafcf95e7ba832985c8e7b13a
@@ -307,7 +307,7 @@ taskcluster-taskgraph==12.1.0 \
     --hash=sha256:222ba9f729e6d970de8c177251e3a5f29010332d7cc6ca8967fd8c8b73fa2c1b \
     --hash=sha256:c37b0ff65ab6ae3ae322bf1ecd4d3453db01b37f22164d9a33ab77e634a34d9a
     # via
-    #   -r requirements.in
+    #   -r taskcluster/requirements.in
     #   mozilla-taskgraph
 taskcluster-urls==13.0.1 \
     --hash=sha256:5e25e7e6818e8877178b175ff43d2e6548afad72694aa125f404a7329ece0973 \
